@@ -1,0 +1,52 @@
+*{
+    font-size: medium;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+body{
+    background-image: url("background.jpg");
+}
+header{
+    font-size:70px ;
+    color: #A5B9DF;
+    margin: 15px 0px 0px 0px;
+    text-align: center;
+}
+#calContener{
+    width: 350px;
+    height: 450px;
+    margin: 20px auto;
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border: 1px solid #0B1322;
+    border-radius: 10px;
+    background-color:#1B2E55;
+    ;
+}
+#calInput{
+    width: 300px;
+    height: 40px;
+    padding: 40px;
+    font-size: xx-large;
+    border: 1px solid #0B1322;
+    border-radius: 10px;
+    background-color:white ;
+
+}
+#calContener button{
+    width: 55px;
+    height: 55px;
+    margin: 10px 10px 0px 0px;
+    border: 1px solid #0B1322;
+    border-radius: 30px;
+}
+.num{
+   background-color: #C9D5EC ;
+}
+.meth{
+   background-color: #4C73C0; 
+}
+
