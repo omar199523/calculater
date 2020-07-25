@@ -7,6 +7,7 @@ for(let i=0;i<myArr.length;i++){
     myArr[i].addEventListener("click",function(){
         if(arr[4]==="active"){
             calInput.innerHTML="";
+            arr[4]="";
         }
         calInput.innerHTML +=myArr[i].innerHTML;
     });
